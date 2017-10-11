@@ -11,7 +11,6 @@
 		7BC56B5D029E684FEFD77F0D /* Pods_NewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045528BF565AC79DA6BBFC11 /* Pods_NewsTests.framework */; };
 		C369C2246345AF6228BB2568 /* Pods_NewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D841E94D1EEC0C7BFDAA3DB7 /* Pods_NewsUITests.framework */; };
 		E0CDA6F71F3429A9009778E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDA6F61F3429A9009778E7 /* AppDelegate.swift */; };
-		E0CDA6F91F3429A9009778E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDA6F81F3429A9009778E7 /* ViewController.swift */; };
 		E0CDA6FC1F3429A9009778E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CDA6FA1F3429A9009778E7 /* Main.storyboard */; };
 		E0CDA6FE1F3429A9009778E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CDA6FD1F3429A9009778E7 /* Assets.xcassets */; };
 		E0CDA7011F3429A9009778E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CDA6FF1F3429A9009778E7 /* LaunchScreen.storyboard */; };
@@ -42,6 +41,30 @@
 
 /* Begin PBXFileReference section */
 		0090D00C7BF850DA6B983983 /* Pods-NewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsTests/Pods-NewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0310BAFF1F8E199B00D53581 /* MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		0310BB001F8E199B00D53581 /* MJExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		0310BB011F8E199B00D53581 /* MJExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		0310BB021F8E199B00D53581 /* MJFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		0310BB031F8E199B00D53581 /* MJFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		0310BB041F8E199B00D53581 /* MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		0310BB051F8E199B00D53581 /* MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		0310BB061F8E199B00D53581 /* MJPropertyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		0310BB071F8E199B00D53581 /* MJPropertyKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		0310BB081F8E199B00D53581 /* MJPropertyType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		0310BB091F8E199B00D53581 /* MJPropertyType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		0310BB0A1F8E199B00D53581 /* NSObject+MJClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		0310BB0B1F8E199B00D53581 /* NSObject+MJClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		0310BB0C1F8E199B00D53581 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		0310BB0D1F8E199B00D53581 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		0310BB0E1F8E199B00D53581 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		0310BB0F1F8E199B00D53581 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		0310BB101F8E199B00D53581 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		0310BB111F8E199B00D53581 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		0310BB121F8E199B00D53581 /* NSString+MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		0310BB131F8E199B00D53581 /* NSString+MJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		0310BB141F8E199B00D53581 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		0310BB151F8E199B00D53581 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		0310BB161F8E199B00D53581 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		045528BF565AC79DA6BBFC11 /* Pods_NewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CEBB9F4D5A15950F9AF8940 /* Pods_News.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_News.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A8398F6C8BF3B3F65632C25 /* Pods-NewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsTests/Pods-NewsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +74,6 @@
 		D841E94D1EEC0C7BFDAA3DB7 /* Pods_NewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CDA6F31F3429A9009778E7 /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CDA6F61F3429A9009778E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0CDA6F81F3429A9009778E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ViewController.swift; sourceTree = "<group>"; };
 		E0CDA6FB1F3429A9009778E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0CDA6FD1F3429A9009778E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0CDA7001F3429A9009778E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,6 +119,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0310BAFD1F8E199B00D53581 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0310BAFE1F8E199B00D53581 /* MJExtension */,
+				0310BB141F8E199B00D53581 /* MyTableViewCell.swift */,
+				0310BB151F8E199B00D53581 /* MyTableViewController.swift */,
+				0310BB161F8E199B00D53581 /* MyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0310BAFE1F8E199B00D53581 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0310BAFF1F8E199B00D53581 /* MJExtension.h */,
+				0310BB001F8E199B00D53581 /* MJExtensionConst.h */,
+				0310BB011F8E199B00D53581 /* MJExtensionConst.m */,
+				0310BB021F8E199B00D53581 /* MJFoundation.h */,
+				0310BB031F8E199B00D53581 /* MJFoundation.m */,
+				0310BB041F8E199B00D53581 /* MJProperty.h */,
+				0310BB051F8E199B00D53581 /* MJProperty.m */,
+				0310BB061F8E199B00D53581 /* MJPropertyKey.h */,
+				0310BB071F8E199B00D53581 /* MJPropertyKey.m */,
+				0310BB081F8E199B00D53581 /* MJPropertyType.h */,
+				0310BB091F8E199B00D53581 /* MJPropertyType.m */,
+				0310BB0A1F8E199B00D53581 /* NSObject+MJClass.h */,
+				0310BB0B1F8E199B00D53581 /* NSObject+MJClass.m */,
+				0310BB0C1F8E199B00D53581 /* NSObject+MJCoding.h */,
+				0310BB0D1F8E199B00D53581 /* NSObject+MJCoding.m */,
+				0310BB0E1F8E199B00D53581 /* NSObject+MJKeyValue.h */,
+				0310BB0F1F8E199B00D53581 /* NSObject+MJKeyValue.m */,
+				0310BB101F8E199B00D53581 /* NSObject+MJProperty.h */,
+				0310BB111F8E199B00D53581 /* NSObject+MJProperty.m */,
+				0310BB121F8E199B00D53581 /* NSString+MJExtension.h */,
+				0310BB131F8E199B00D53581 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
 		1FC470D4B3EB897E0D258705 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,20 +237,12 @@
 		E0CDA7241F343016009778E7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E0CDA7251F343016009778E7 /* Controller */,
+				0310BAFD1F8E199B00D53581 /* Controller */,
 				E0CDA7261F343016009778E7 /* Model */,
 				E0CDA7271F343016009778E7 /* Tools */,
 				E0CDA7281F343016009778E7 /* View */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		E0CDA7251F343016009778E7 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				E0CDA6F81F3429A9009778E7 /* ViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		E0CDA7261F343016009778E7 /* Model */ = {
@@ -294,6 +347,7 @@
 				TargetAttributes = {
 					E0CDA6F21F3429A9009778E7 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8NZL4MFD85;
 						ProvisioningStyle = Automatic;
 					};
 					E0CDA7061F3429A9009778E7 = {
@@ -500,7 +554,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CDA72C1F3438A2009778E7 /* NewsModel.swift in Sources */,
-				E0CDA6F91F3429A9009778E7 /* ViewController.swift in Sources */,
 				E0CDA72F1F343D54009778E7 /* NewsViewCell.swift in Sources */,
 				E0CDA72A1F343038009778E7 /* NetworkTool.swift in Sources */,
 				E0CDA6F71F3429A9009778E7 /* AppDelegate.swift in Sources */,
@@ -656,6 +709,7 @@
 			baseConfigurationReference = FADDC7677719ED61D36081BD /* Pods-News.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NZL4MFD85;
 				INFOPLIST_FILE = News/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -670,6 +724,7 @@
 			baseConfigurationReference = 98B61422145CEF8304EB0CB9 /* Pods-News.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NZL4MFD85;
 				INFOPLIST_FILE = News/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
